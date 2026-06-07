@@ -1,28 +1,5 @@
 # Bandit Level 0 - Write-up
 
-## 🇧🇷 Português (Brasil)
-
-**Solução:**
-Para solucionar o presente problemas, devemos utilizar o comando ssh e especificar a porta. Além disso, considerando que, provavelmente, o nome do usuário da sua máquina é diferente do username proposto pelo jogo, devemos utilizar uma sintaxe na qual o usuário deve ser especificado. Ficando, portanto, desta forma:
-
-`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
-
-Decompondo o código, teremos:
-- **ssh** - para estabelecer uma comunicação secure shell (SSH) com o servidor.
-- **-p** - flag necessária para especificar a porta lógica que queremos acessar.
-- **2220** - o número da porta que será acessada em função da flag -p.
-- **bandit0** - o username necessário para acessar o servidor. Caso deixássemos em branco, o servidor usaria a identificação do seu username registrado na máquina ou rede que você utilizar.
-- **@...** - o endereço do servidor solicitado.
-- **utilizador@host**
-
-**O que aprendi com este exercício:**
-- Significado de SSH e sua importância na comunicação de redes.
-- A utilização do comando SSH no Linux e algumas flags, como -p ou -v.
-- Como específicar uma porta lógica
-- Como especificar um usuário ao acessar um servidor SSH.
-
----
-
 ## 🇬🇧 English
 
 **Solution:**
@@ -66,3 +43,29 @@ En décomposant le code, nous avons :
 - L'utilisation de la commande SSH sous Linux et quelques flags, comme -p ou -v.
 - Comment spécifier un port logique
 - Comment spécifier un utilisateur lors de l'accès à un serveur SSH.
+
+---
+
+## 🇧🇷 Português (Brasil)
+
+**Solução:**
+Para solucionar o presente problemas, devemos utilizar o comando ssh e especificar a porta. Além disso, considerando que, provavelmente, o nome do usuário da sua máquina é diferente do username proposto pelo jogo, devemos utilizar uma sintaxe na qual o usuário deve ser especificado. Ficando, portanto, desta forma:
+
+`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
+
+Decompondo o código, teremos:
+- **ssh** - para estabelecer uma comunicação secure shell (SSH) com o servidor.
+- **-p** - flag necessária para especificar a porta lógica que queremos acessar.
+- **2220** - o número da porta que será acessada em função da flag -p.
+- **bandit0** - o username necessário para acessar o servidor. Caso deixássemos em branco, o servidor usaria a identificação do seu username registrado na máquina ou rede que você utilizar.
+- **@...** - o endereço do servidor solicitado.
+- **utilizador@host**
+
+**O que aprendi com este exercício:**
+- Significado de SSH e sua importância na comunicação de redes.
+- A utilização do comando SSH no Linux e algumas flags, como -p ou -v.
+- Como específicar uma porta lógica
+- Como especificar um usuário ao acessar um servidor SSH.
+
+---
+
