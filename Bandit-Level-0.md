@@ -5,8 +5,6 @@
 **Solution:**
 To solve the present problem, we must use the ssh command and specify the port. Furthermore, considering that, likely, your machine's username is different from the username proposed by the game, we must use a syntax in which the user must be specified. Resulting, therefore, in this way:
 
-`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
-
 Decomposing the code, we have:
 - **ssh** - to establish a secure shell (SSH) communication with the server.
 - **-p** - flag necessary to specify the logical port we want to access.
@@ -28,8 +26,6 @@ Decomposing the code, we have:
 **Solution :**
 Pour résoudre le problème actuel, nous devons utiliser la commande ssh et spécifier le port. De plus, étant donné que le nom d'utilisateur de votre machine est probablement différent du nom d'utilisateur proposé par le jeu, nous devons utiliser une syntaxe dans laquelle l'utilisateur doit être spécifié. Ce qui donne, donc, ceci :
 
-`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
-
 En décomposant le code, nous avons :
 - **ssh** - pour établir une communication secure shell (SSH) avec le serveur.
 - **-p** - flag nécessaire pour spécifier le port logique auquel nous voulons accéder.
@@ -50,8 +46,6 @@ En décomposant le code, nous avons :
 
 **Solução:**
 Para solucionar o presente problemas, devemos utilizar o comando ssh e especificar a porta. Além disso, considerando que, provavelmente, o nome do usuário da sua máquina é diferente do username proposto pelo jogo, devemos utilizar uma sintaxe na qual o usuário deve ser especificado. Ficando, portanto, desta forma:
-
-`ssh -p 2220 bandit0@bandit.labs.overthewire.org`
 
 Decompondo o código, teremos:
 - **ssh** - para estabelecer uma comunicação secure shell (SSH) com o servidor.
